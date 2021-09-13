@@ -1,0 +1,1 @@
+# xd-win-var-templates

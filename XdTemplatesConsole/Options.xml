@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Prefixes>
+    <Prefix Id="NORMAL" Prefix="{{" Postfix="}}" />
+    <Prefix Id="HTMLENC" Prefix="{{||" Postfix="||}}" />
+  </Prefixes>
+  <Options Prefix="{{" Postfix="}}">
+  
+    <Option 
+		Id="1" 
+		Name="B2C TEMPLATES (Development)" 
+		TemplateFolder="C:\Code\xchangedocs-b2ctemplates\templates" 
+		OutputFolder="C:\Code\xchangedocs-b2ctemplates\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_development.vars" 
+		SearchPattern="*.xml" 
+	/>
+	
+
+    <Option 
+		Id="2" 
+		Name="B2C TEMPLATES (Staging)" 
+		TemplateFolder="C:\Code\xchangedocs-b2ctemplates\templates" 
+		OutputFolder="C:\Code\xchangedocs-b2ctemplates\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_staging.vars" 
+		SearchPattern="*.xml" 
+	/>
+	
+    <Option 
+		Id="3" 
+		Name="B2C TEMPLATES (Production)" 
+		TemplateFolder="C:\Code\xchangedocs-b2ctemplates\templates" 
+		OutputFolder="C:\Code\xchangedocs-b2ctemplates\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_prod.vars" 
+		SearchPattern="*.xml" 
+	/>
+	
+    <Option 
+		Id="4" 
+		Name="XCHANGEDOCS WEBSITE (Development)" 
+		TemplateFolder="C:\Code\xchangedocs-website\wwwroot" 
+		OutputFolder="C:\Code\xchangedocs-website\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_development.vars" 
+		SearchPattern="*.html" 
+	/>
+	
+
+    <Option 
+		Id="5" 
+		Name="XCHANGEDOCS WEBSITE (Staging)" 
+		TemplateFolder="C:\Code\xchangedocs-website\wwwroot" 
+		OutputFolder="C:\Code\xchangedocs-website\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_staging.vars" 
+		SearchPattern="*.html" 
+	/>
+	
+    <Option 
+		Id="6" 
+		Name="XCHANGEDOCS WEBSITE (Production)" 
+		TemplateFolder="C:\Code\xchangedocs-website\wwwroot" 
+		OutputFolder="C:\Code\xchangedocs-website\dist" 
+		VariableFile="C:\Code\files\b2ctemplates_prod.vars" 
+		SearchPattern="*.html" 
+	/>
+	
+  </Options>
+</Settings>
+
